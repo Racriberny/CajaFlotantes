@@ -1,0 +1,68 @@
+body{background-color:#E6E6E6;}
+/*si quieres sacar el titulo fuera que esta caja tendriamos que quitar el width y el float*/
+.caja1{
+  background-color:red;
+  width: 1500px;
+  height: 300px;
+  float: left;
+}
+.caja2{
+  background-color:#ffff88;
+  width: 450px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+}
+.caja3{
+  background-color:yellow;
+  width: 300px;
+  height: 300px;
+  float: left;
+  text-align: right;
+  font-size: 25px;
+}
+.caja4{
+  background-color:greenyellow;
+  width: 750px;
+  height: 300px;
+  float: left;
+  text-align: left;
+  font-size: 25px;
+}
+.caja5{
+  background-color:gray;
+  width: 450px;
+  height: 300px;
+  float: left;
+  text-align: right;
+  font-size: 25px;
+}
+.caja6{
+  background-color:gold;
+  width: 450px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+}
+.caja7{
+  background-color:blueviolet;
+  width: 600px;
+  height: 300px;
+  float: left;
+  text-align: start;
+  font-size: 25px;
+}
+/*Esto es lo tienes que cambiar para que sea mas grnade el recuadro o no */
+.contenedor{
+  width: 1500px;
+  height: 900px;
+  border: black 10px solid;
+}
+/*EL titulo de la pagina la alineacion y la grandaria. */
+.titulo{
+  text-align: center;
+  font-size:50px ;
+}
+
