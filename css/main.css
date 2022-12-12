@@ -1,68 +1,58 @@
-body{background-color:#E6E6E6;}
-/*si quieres sacar el titulo fuera que esta caja tendriamos que quitar el width y el float*/
-.caja1{
-  background-color:red;
-  width: 1500px;
-  height: 300px;
-  float: left;
-}
-.caja2{
-  background-color:#ffff88;
-  width: 450px;
-  height: 300px;
-  float: left;
-  text-align: center;
-  font-size: 25px;
-}
-.caja3{
-  background-color:yellow;
-  width: 300px;
-  height: 300px;
-  float: left;
-  text-align: right;
-  font-size: 25px;
-}
-.caja4{
-  background-color:greenyellow;
-  width: 750px;
-  height: 300px;
-  float: left;
-  text-align: left;
-  font-size: 25px;
-}
-.caja5{
-  background-color:gray;
-  width: 450px;
-  height: 300px;
-  float: left;
-  text-align: right;
-  font-size: 25px;
-}
-.caja6{
-  background-color:gold;
-  width: 450px;
-  height: 300px;
-  float: left;
-  text-align: center;
-  font-size: 25px;
-}
-.caja7{
-  background-color:blueviolet;
-  width: 600px;
-  height: 300px;
-  float: left;
-  text-align: start;
-  font-size: 25px;
-}
-/*Esto es lo tienes que cambiar para que sea mas grnade el recuadro o no */
-.contenedor{
-  width: 1500px;
-  height: 900px;
-  border: black 10px solid;
-}
-/*EL titulo de la pagina la alineacion y la grandaria. */
-.titulo{
-  text-align: center;
-  font-size:50px ;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
+body{
+  background-color: chocolate;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.horizontalFinal{
+  text-align:left;
+  background-color: orange;
+  height: 75px;
+  width: 50%;
+  /* margin-bottom: 10px; */
+
+}
+.horizontal{
+  text-align:right;
+  background-color: yellow;
+  height: 75px;
+  width: 100%;
+}
+
+.inline{
+  display: inline-block;
+  margin-right: -4px;
+  margin-bottom: -4px;
+  padding-top: 20px;
+  height: 200px;
+  width: 50%;
+  background-color: black;
+}
+
+.col1{background-color: rgb(41, 143, 252);font-size:21px;  text-align:center;}
+.col2{background-color: rgb(32, 85, 199);font-size:18px;  text-align:left;}
+.col3{background-color: rgb(87, 98, 174);font-size:22px;  text-align:right;}
+.col4{background-color: rgb(160, 90, 178); font-size:19px;  text-align:center;}
+.col5{background-color: blueviolet;font-size:20px;  text-align:left;}
+.col6{background-color: red}
+.col7{background-color: aquamarine}
+.col8{background-color: darkblue}
+
+
+
+@media screen and (max-width: 800px){
+  .inline{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
